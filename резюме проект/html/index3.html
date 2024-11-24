@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JJ - создание резюме</title>
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="scripts.js"></script>
+    </head>
+    <body class="bodystyle">
+        <header class="header">
+            <a class="header-logo" href="index.html">
+                <div class="logo-JJ">JJ</div>
+                <div class="logo-text">job jotter</div>
+            </a>
+            <!--<nav class="nav">
+                <buttom class="nav-button" type="button">
+                    <img src="/img/Frame 2 (1).png" alt="menu"  class="navigation_button_img">
+                </buttom> 
+            </nav>-->
+        </header>
+        <main>
+            <section class="stages">
+                <div class="arrow-b">
+                    <span class="stages-left"></span>
+                    <span class="stages-center"></span>
+                    <span class="stages-right"></span>
+                </div>
+                <div class="stages-points">
+                    <ul class="stages-points-list">
+                        <li class="stages-points-item">
+                            <div class="circle-stages">
+                                <div class="circle-main"></div>
+                            </div>
+                            <a href="Index2.html" class= "circle-link" >
+                                <div class="stages-points-name">
+                                Личное
+                                </div>
+                            </a>
+                        </li>
+                        <li class="stages-points-item">
+                                
+                            <div class="circle-stages">
+                                <div class="circle-main"></div>
+                            </div> 
+                            <a href="index3.html" class= "circle-link" >
+                                <div class="stages-points-name">
+                                Опыт
+                                </div>
+                            </a>
+                        </li>
+                        <li class="stages-points-item stages-points-item-proverka">
+                            <div class="circle-stages">
+                                <div class="circle"></div>
+                            </div>
+                            <a href="index4.html" class= "circle-link" >
+                                <div class="stages-points-name">
+                                Проверка
+                                </div>
+                            </a>
+                        </li>
+                        <li class="stages-points-item">
+                            <div class="circle-stages">
+                                <div class="circle"></div>
+                            </div>
+                            <a href="index5.html" class= "circle-link" >
+                                <div class="stages-points-name">
+                                Шаблон
+                                </div>
+                            </a>
+                        </li>
+                        <li class="stages-points-item">
+                            <div class="circle-stages">
+                                <div class="circle"></div>
+                            </div>
+                            <a href="index6.html" class= "circle-link" >
+                                <div class="stages-points-name">
+                                Готово
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="forms-container">
+                <section class="forms-wishes">
+                    <h1 class="section-title section-title-wishes">Пожелания</h1>
+                    <form action="" class="wishes-form">
+                        <input type="text" name="" placeholder="Должность" class="input input-wish-form">
+                        <input type="text" name="" placeholder="Зарплата" class="input input-wish-form">
+                        <input name="" type="text" placeholder="График работы" class="input input-wish-form"/>
+                    </form>
+                </section>
+                <section class="education">
+                    <h1 class="section-title section-title-education">Образование</h1>
+                    <form action="" class="education-form">
+                        <input type="text" name="" placeholder="Место учебы" class="input input-education-form">
+                        <div class="education-form-gfs">
+                            <input type="text" name="" placeholder="Год окончания" class="input input-education-form-gfs">
+                            <input name="" type="text" placeholder="Факультет" class="input input-education-form-gfs"/>
+                            <input type="text" name="" placeholder="Специальность" class="input input-education-form-gfs">
+                        </div>
+                        <div class="education-form-stud">
+                            <input type="text" name="" placeholder="Форма обучения" class="input input-education-form">
+                        </div>
+                    </form>
+                    <button class="btn btn-add">
+                        Добавить образование
+                        <img src="/img/плюсик.png" alt="" class="plus">
+                    </button>
+                </section>
+                <section class="experience">
+                    <h1 class="section-title section-title-experience">Опыт работы</h1>
+                    <form action="" class="experience-form">    
+                        <div class="form-experience-top">
+                            <div class="input-experience-form-top">
+                                 <input type="text" name="" placeholder="Должность" class="input ">
+                            </div>
+                            <div class="bir-form-first">
+                                <div class="bir-text bir-text-first">
+                                    <label class="bir-label">Дата начала работы</label>
+                                </div>
+                                <div class="bir-numbers">
+                                    <input type="number" min="1" max="31" name="" placeholder="День" maxlength="2" class="input-br">
+                                    <input type="number" min="1" max="12" name="" placeholder="Месяц" maxlength="2" class="input-br">
+                                    <input type="number" min="1900" max="2020" name="" placeholder="Год" maxlength="4" class="input-br">
+                                </div>
+                            </div>
+                            <div class="bir-form-second">
+                                <div class="bir-text bir-text-second">
+                                    <label class="bir-label">Дата окончания работы</label>
+                                </div>
+                                <div class="bir-numbers">
+                                    <input type="number" min="1" max="31" name="" placeholder="День" maxlength="2" class="input-br">
+                                    <input type="number" min="1" max="12" name="" placeholder="Месяц" maxlength="2" class="input-br">
+                                    <input type="number" min="1900" max="2020" name="" placeholder="Год" maxlength="4" class="input-br">
+                                </div>
+                            </div>
+                        </div>
+                        <input type="text" name="" placeholder="Место работы" class="input input-experience-form">
+                        <input type="text" name="" placeholder="Должостные обязанности и достижения" class="input input-experience-form">
+                    </form>
+                </section>
+                <div class="btns-bottom">
+                    <button class="btn btn-add">
+                        Добавить опыт работы
+                        <img src="/img/плюсик.png" alt="" class="plus">
+                    </button>
+                    <button class="btn btn-no-experience">
+                        Нет опыта работы
+                        
+                    </button>
+                </div>
+                <div class="container">
+                    <div id="sections-container">
+                    <div class="dropdown">
+                        <button id="add-section-button">Добавить раздел<img src="/img/Polygon2.png" id="add-section-button-img"></button>
+                        <div id="dropdown-content" class="dropdown-content">
+                            <button id="skills-button" class="dropdown-button">Навыки</button>
+                            <button id="additional-info-button" class="dropdown-button">Дополнительная информация</button>
+                            <button id="languages-button" class="dropdown-button">Языки</button>
+                            <button id="driving-license-button" class="dropdown-button">Водительские права</button>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+            
+                
+            </section>
+            <div class="cont-btn-next">
+                <a  href="index4.html" class="btn btn-next">
+                    Перейти к проверке
+                    <img src="/img/Polygon 1.png" class="strelka-right">
+                </a>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-text">
+                <div class="footer-description">© 2024 Job jotter – генератор онлайн-резюме c искусственным интеллектом </div>
+                <div class="footer-team">
+                    
+                        <div class="footer-team-svg">
+                            <svg width="21px" height="21px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="14" fill="url(#paint0_linear_87_7225)"/>
+                                <path d="M22.9866 10.2088C23.1112 9.40332 22.3454 8.76755 21.6292 9.082L7.36482 15.3448C6.85123 15.5703 6.8888 16.3483 7.42147 16.5179L10.3631 17.4547C10.9246 17.6335 11.5325 17.541 12.0228 17.2023L18.655 12.6203C18.855 12.4821 19.073 12.7665 18.9021 12.9426L14.1281 17.8646C13.665 18.3421 13.7569 19.1512 14.314 19.5005L19.659 22.8523C20.2585 23.2282 21.0297 22.8506 21.1418 22.1261L22.9866 10.2088Z" fill="white"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_87_7225" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#37BBFE"/>
+                                <stop offset="1" stop-color="#007DBB"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        
+                    <div class="footer-team-text">Наша команда:</div>
+                    
+                </div>
+                <div class="footer-team-lists">
+                    <ul class="footer-team-list-f">
+                        <li class="footer-team-item"><a class="footer-team-item-a" href="https://t.me/absxxlute3" target="_blank">Кирилл Свидерский</a> - Backend</li>
+                        <li class="footer-team-item"><a class="footer-team-item-a" href="https://t.me/baikalboi" target="_blank">Илья Щелканов</a> - Backend</li>
+                    </ul>
+                    <ul class="footer-team-list-s">
+                        <li class="footer-team-item"><a class="footer-team-item-a" href="https://t.me/Kluch1208" target="_blank">Даниил Концевой</a> - Frontend</li>
+                        <li class="footer-team-item"><a class="footer-team-item-a" href="https://t.me/ezhike" target="_blank">Александра Дугина</a> - UI/UX</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-logo"><img src="/img/jjmini.png" alt="" class="footer-logo-img"></div>
+        </footer>
+        <script src="/js/script.js"></script>
+    </body>
+</html>
